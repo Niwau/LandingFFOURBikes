@@ -5,5 +5,7 @@ export const Logo = ({name}) => (
 )
 
 const Title = styled.h1`
-    
+    color: var(--green);
+    font-size: 4rem;
+    font-weight: 600;
 `

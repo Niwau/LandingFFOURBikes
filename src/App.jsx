@@ -15,7 +15,7 @@ function App() {
         <Logo name = "FF OURBike"/>
       </Header>
 
-      <Main>
+      <Main> 
         <ButtonBlockquote 
           title = "TUDO O QUE VOCÊ PRECISA EM UM SÓ LUGAR!"
           subtitle = "Somos uma comunidade de apoio aos ciclistas."
