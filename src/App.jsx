@@ -25,6 +25,8 @@ function App() {
         />
 
         <Blockquote
+          sort = {1} 
+          reverse = {'wrap-reverse'}
           title = "FÁCIL SISTEMA DE LOCALIZAÇÃO"
           subtitle = "Encontre pessoas e estabelecimentos facilmente."
           src = "./images/map.png"
@@ -39,6 +41,8 @@ function App() {
         />
 
         <Blockquote
+          sort = {1}
+          reverse = {'wrap-reverse'}
           title = "ENCONTRE LOCAIS DE REPARO "
           subtitle = "Diversos estabelecimentos de manutenção e lojas especializadas."
           src = "./images/bike.png"

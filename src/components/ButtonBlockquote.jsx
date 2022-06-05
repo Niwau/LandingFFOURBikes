@@ -23,14 +23,12 @@ const Container = styled.blockquote`
     h1 {
         color: var(--dark);
         font-size: 6.4rem;
-        width: 590px;
         font-weight: 800;
     }
 
     p {
         color: var(--light);
         font-size: 3.2rem;
-        width: 590px;
         font-weight: 200;
     }
 
@@ -39,7 +37,7 @@ const Container = styled.blockquote`
         border: 2px solid var(--green);
         border-radius: 15px;
         color: var(--green);
-        padding: 21px 255px;
+        padding: 2.1rem 25.5rem;
         margin-top: 20px;
         font-weight: 600;
         font-size: 2rem;
@@ -51,4 +49,17 @@ const Container = styled.blockquote`
             color: var(--white);
         }
     }
+
+    img {
+        width: 60rem;
+    }
+    
+    @media(max-width: 600px){
+        text-align: center;
+    }
+
+    @media(min-width: 600px){
+        h1,p {width: 590px}
+    }
+    
 `

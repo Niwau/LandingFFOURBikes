@@ -14,3 +14,10 @@ html {
     box-sizing: border-box;
     font-family: 'Poppins';
 }
+
+@media(max-width: 600px){
+
+    html {
+        font-size: 7px;
+    }
+}
